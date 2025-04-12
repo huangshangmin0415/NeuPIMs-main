@@ -1,0 +1,11 @@
+{   
+    "model_name": "LLAMA2-7B",
+    "model_params_b": 7,
+    "model_vocab_size": 32000,
+    "model_n_layer": 32,
+    "model_n_head": 32,
+    "gqp": 1,
+    "model_n_embd": 2048,
+    "n_tp": 4,
+    "n_pp": 1
+}

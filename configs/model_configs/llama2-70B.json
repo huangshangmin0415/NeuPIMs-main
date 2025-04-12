@@ -1,0 +1,11 @@
+{   
+    "model_name": "LLAMA2-70B",
+    "model_params_b": 70,
+    "model_vocab_size": 32000,
+    "model_n_layer": 80,
+    "model_n_head": 64,
+    "gqp": 2,
+    "model_n_embd": 8192,
+    "n_tp": 4,
+    "n_pp": 2
+}
