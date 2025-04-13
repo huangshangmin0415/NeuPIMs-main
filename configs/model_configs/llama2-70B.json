@@ -6,6 +6,6 @@
     "model_n_head": 64,
     "gqp": 2,
     "model_n_embd": 8192,
-    "n_tp": 4,
-    "n_pp": 2
+    "n_tp": 16,
+    "n_pp": 4
 }
