@@ -1,0 +1,2696 @@
+[ 30%] Built target booksim2
+[ 38%] Built target dramsim3
+[ 68%] Built target Simulator
+[ 97%] Built target Simulator_lib
+[100%] Built target dramsim3main
+log directory: experiment_logs/126
+[2025-04-13 19:34:30.853] [info] Newton config: /home/hsm0415/NeuPIMs-main/src/../extern/NewtonSim/configs/HBM2_8Gb_x128_dualpim.ini
+[2025-04-13 19:34:30.864] [info] Newton init with VSCODE
+[2025-04-13 19:34:30.864] [info] Initialize SimpleInterconnect
+[2025-04-13 19:34:30.864] [info] initializing NeuPIM SystolicWS cores.
+[2025-04-13 19:34:30.865] [info] Total PIM tiles: 786432
+[2025-04-13 19:34:30.865] [info] Tiles per channel: 24576
+[2025-04-13 19:34:30.865] [info] _key_period: 32
+[2025-04-13 19:34:30.865] [info] _key_page_size: 1
+[2025-04-13 19:34:30.865] [info] _value_period: 512
+[2025-04-13 19:34:30.865] [info] _value_page_size: 16
+[2025-04-13 19:34:30.865] [info] Effective E(_nh * _dk):512
+[2025-04-13 19:34:30.865] [info] OrcaScheduler init
+[2025-04-13 19:34:30.865] [info] parsed 256 lines from file ./data/share-gpt2-lmbs256-ms70B-tp16-pp4-clb-0.csv
+[2025-04-13 19:34:30.865] [info] Client total request cnt: 256
+[2025-04-13 19:34:30.865] [info] DRAM address alignment 64
+[2025-04-13 19:34:30.865] [info] model name: LLAMA2-70B
+[2025-04-13 19:34:30.869] [info] Total weight size: 8585789440
+Launching model
+[2025-04-13 19:34:30.913] [info] Launch model: LLAMA2-70B
+[2025-04-13 19:34:30.913] [info] ======Start Simulation=====
+[2025-04-13 19:34:30.913] [info] MODEL LLAMA2-70B Launched in Scheduler
+[2025-04-13 19:34:30.913] [info] assign model LLAMA2-70B
+[2025-04-13 19:34:30.913] [info] issued cnt:1 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #0, input size:2048, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:2 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #1, input size:1488, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:3 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #2, input size:1073, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:4 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #3, input size:1025, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:5 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #4, input size:811, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:6 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #5, input size:828, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:7 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #6, input size:1382, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:8 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #7, input size:752, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:9 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #8, input size:747, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:10 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #9, input size:747, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:11 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #10, input size:725, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:12 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #11, input size:722, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:13 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #12, input size:743, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:14 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #13, input size:681, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:15 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #14, input size:712, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:16 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #15, input size:651, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:17 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #16, input size:680, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:18 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #17, input size:657, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:19 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #18, input size:645, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:20 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #19, input size:663, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:21 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #20, input size:639, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:22 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #21, input size:647, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:23 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #22, input size:624, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:24 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #23, input size:610, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:25 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #24, input size:591, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:26 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #25, input size:586, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:27 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #26, input size:582, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:28 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #27, input size:581, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:29 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #28, input size:1222, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:30 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #29, input size:629, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:31 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #30, input size:546, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:32 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #31, input size:546, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:33 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #32, input size:544, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:34 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #33, input size:551, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:35 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #34, input size:590, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:36 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #35, input size:575, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:37 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #36, input size:503, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:38 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #37, input size:568, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:39 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #38, input size:491, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:40 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #39, input size:487, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:41 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #40, input size:487, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:42 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #41, input size:479, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:43 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #42, input size:463, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:44 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #43, input size:461, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:45 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #44, input size:472, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:46 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #45, input size:461, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:47 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #46, input size:458, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:48 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #47, input size:554, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:49 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] xyz
+[2025-04-13 19:34:30.913] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.913] [info] Request #48, input size:493, output size:1
+[2025-04-13 19:34:30.913] [info] issued cnt:50 total: 256
+[2025-04-13 19:34:30.913] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #49, input size:419, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:51 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #50, input size:437, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:52 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #51, input size:403, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:53 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #52, input size:404, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:54 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #53, input size:396, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:55 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #54, input size:383, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:56 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #55, input size:442, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:57 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #56, input size:377, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:58 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #57, input size:363, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:59 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #58, input size:352, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:60 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #59, input size:353, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:61 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #60, input size:343, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:62 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #61, input size:347, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:63 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #62, input size:334, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:64 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #63, input size:328, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:65 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #64, input size:327, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:66 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #65, input size:321, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:67 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #66, input size:321, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:68 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #67, input size:317, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:69 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #68, input size:1323, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:70 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #69, input size:326, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:71 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #70, input size:516, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:72 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #71, input size:354, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:73 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #72, input size:329, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:74 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #73, input size:325, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:75 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #74, input size:308, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:76 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #75, input size:304, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:77 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #76, input size:303, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:78 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #77, input size:302, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:79 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #78, input size:304, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:80 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #79, input size:298, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:81 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #80, input size:291, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:82 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #81, input size:308, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:83 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #82, input size:294, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:84 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #83, input size:281, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:85 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #84, input size:273, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:86 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #85, input size:314, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:87 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #86, input size:292, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:88 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #87, input size:287, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:89 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #88, input size:261, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:90 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #89, input size:944, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:91 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #90, input size:276, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:92 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #91, input size:268, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:93 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #92, input size:261, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:94 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #93, input size:258, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:95 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #94, input size:284, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:96 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #95, input size:272, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:97 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #96, input size:266, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:98 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #97, input size:261, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:99 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #98, input size:243, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:100 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #99, input size:270, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:101 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #100, input size:267, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:102 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #101, input size:261, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:103 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #102, input size:237, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:104 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.914] [info] Request #103, input size:330, output size:1
+[2025-04-13 19:34:30.914] [info] issued cnt:105 total: 256
+[2025-04-13 19:34:30.914] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] xyz
+[2025-04-13 19:34:30.914] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #104, input size:317, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:106 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #105, input size:309, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:107 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #106, input size:249, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:108 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #107, input size:249, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:109 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #108, input size:236, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:110 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #109, input size:465, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:111 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #110, input size:257, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:112 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #111, input size:254, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:113 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #112, input size:242, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:114 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #113, input size:232, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:115 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #114, input size:220, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:116 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #115, input size:471, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:117 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #116, input size:237, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:118 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #117, input size:221, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:119 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #118, input size:218, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:120 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #119, input size:211, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:121 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #120, input size:207, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:122 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #121, input size:206, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:123 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #122, input size:221, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:124 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #123, input size:214, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:125 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #124, input size:210, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:126 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #125, input size:202, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:127 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #126, input size:199, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:128 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #127, input size:197, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:129 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #128, input size:191, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:130 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #129, input size:192, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:131 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #130, input size:188, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:132 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #131, input size:186, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:133 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #132, input size:260, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:134 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #133, input size:207, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:135 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #134, input size:200, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:136 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #135, input size:185, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:137 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #136, input size:178, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:138 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #137, input size:495, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:139 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #138, input size:400, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:140 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #139, input size:294, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:141 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #140, input size:257, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:142 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #141, input size:190, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:143 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #142, input size:181, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:144 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #143, input size:170, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:145 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #144, input size:168, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:146 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #145, input size:167, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:147 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #146, input size:161, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:148 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #147, input size:240, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:149 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #148, input size:226, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:150 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #149, input size:176, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:151 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #150, input size:163, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:152 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #151, input size:162, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:153 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #152, input size:161, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:154 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #153, input size:158, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:155 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #154, input size:290, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:156 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #155, input size:184, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:157 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #156, input size:172, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:158 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #157, input size:163, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:159 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #158, input size:159, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:160 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.915] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.915] [info] Request #159, input size:157, output size:1
+[2025-04-13 19:34:30.915] [info] issued cnt:161 total: 256
+[2025-04-13 19:34:30.915] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.915] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #160, input size:151, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:162 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #161, input size:145, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:163 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #162, input size:143, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:164 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #163, input size:222, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:165 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #164, input size:177, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:166 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #165, input size:156, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:167 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #166, input size:139, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:168 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #167, input size:1501, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:169 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #168, input size:142, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:170 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #169, input size:139, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:171 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #170, input size:136, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:172 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #171, input size:129, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:173 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #172, input size:122, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:174 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #173, input size:154, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:175 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #174, input size:148, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:176 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #175, input size:130, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:177 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #176, input size:119, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:178 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #177, input size:111, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:179 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #178, input size:111, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:180 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #179, input size:1082, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:181 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #180, input size:671, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:182 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #181, input size:158, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:183 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #182, input size:111, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:184 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #183, input size:103, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:185 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #184, input size:188, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:186 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #185, input size:121, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:187 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #186, input size:118, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:188 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #187, input size:115, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:189 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #188, input size:103, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:190 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #189, input size:101, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:191 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #190, input size:99, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:192 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #191, input size:98, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:193 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #192, input size:96, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:194 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #193, input size:137, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:195 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #194, input size:136, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:196 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #195, input size:116, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:197 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #196, input size:95, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:198 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #197, input size:102, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:199 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #198, input size:84, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:200 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #199, input size:76, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:201 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #200, input size:71, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:202 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #201, input size:135, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:203 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #202, input size:92, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:204 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #203, input size:76, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:205 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #204, input size:75, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:206 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #205, input size:73, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:207 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #206, input size:68, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:208 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #207, input size:65, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:209 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #208, input size:63, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:210 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #209, input size:499, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:211 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #210, input size:312, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:212 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #211, input size:116, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:213 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #212, input size:84, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:214 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #213, input size:79, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:215 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.916] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.916] [info] Request #214, input size:71, output size:1
+[2025-04-13 19:34:30.916] [info] issued cnt:216 total: 256
+[2025-04-13 19:34:30.916] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.916] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #215, input size:69, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:217 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #216, input size:65, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:218 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #217, input size:63, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:219 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #218, input size:60, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:220 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #219, input size:60, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:221 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #220, input size:269, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:222 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #221, input size:66, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:223 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #222, input size:62, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:224 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #223, input size:57, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:225 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #224, input size:52, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:226 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #225, input size:48, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:227 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #226, input size:41, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:228 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #227, input size:41, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:229 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #228, input size:95, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:230 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #229, input size:71, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:231 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #230, input size:70, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:232 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #231, input size:53, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:233 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #232, input size:40, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:234 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #233, input size:33, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:235 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #234, input size:55, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:236 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #235, input size:48, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:237 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #236, input size:41, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:238 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #237, input size:41, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:239 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #238, input size:40, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:240 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #239, input size:829, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:241 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #240, input size:38, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:242 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #241, input size:36, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:243 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #242, input size:25, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:244 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #243, input size:24, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:245 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #244, input size:17, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:246 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #245, input size:17, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:247 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #246, input size:15, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:248 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #247, input size:15, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:249 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #248, input size:13, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:250 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #249, input size:311, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:251 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #250, input size:50, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:252 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #251, input size:20, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:253 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #252, input size:15, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:254 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #253, input size:13, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:255 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #254, input size:13, output size:1
+[2025-04-13 19:34:30.917] [info] issued cnt:256 total: 256
+[2025-04-13 19:34:30.917] [info] idle:0, need_wait:0
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] xyz
+[2025-04-13 19:34:30.917] [info] Client Request Departure!! now:0 next wait: 0
+[2025-04-13 19:34:30.917] [info] Request #255, input size:9, output size:1
+[2025-04-13 19:34:30.917] [info] RequestGenerator has no data!
+[2025-04-13 19:34:30.918] [info] request#0 seq_len:2048 channel:23
+[2025-04-13 19:34:30.918] [info] request#1 seq_len:1488 channel:23
+[2025-04-13 19:34:30.918] [info] request#2 seq_len:1073 channel:17
+[2025-04-13 19:34:30.918] [info] request#3 seq_len:1025 channel:0
+[2025-04-13 19:34:30.918] [info] request#4 seq_len:811 channel:17
+[2025-04-13 19:34:30.918] [info] request#5 seq_len:828 channel:30
+[2025-04-13 19:34:30.919] [info] request#6 seq_len:1382 channel:21
+[2025-04-13 19:34:30.919] [info] request#7 seq_len:752 channel:16
+[2025-04-13 19:34:30.919] [info] request#8 seq_len:747 channel:15
+[2025-04-13 19:34:30.919] [info] request#9 seq_len:747 channel:11
+[2025-04-13 19:34:30.919] [info] request#10 seq_len:725 channel:12
+[2025-04-13 19:34:30.919] [info] request#11 seq_len:722 channel:10
+[2025-04-13 19:34:30.919] [info] request#12 seq_len:743 channel:22
+[2025-04-13 19:34:30.919] [info] request#13 seq_len:681 channel:28
+[2025-04-13 19:34:30.919] [info] request#14 seq_len:712 channel:5
+[2025-04-13 19:34:30.919] [info] request#15 seq_len:651 channel:8
+[2025-04-13 19:34:30.920] [info] request#16 seq_len:680 channel:7
+[2025-04-13 19:34:30.920] [info] request#17 seq_len:657 channel:6
+[2025-04-13 19:34:30.920] [info] request#18 seq_len:645 channel:27
+[2025-04-13 19:34:30.920] [info] request#19 seq_len:663 channel:18
+[2025-04-13 19:34:30.920] [info] request#20 seq_len:639 channel:9
+[2025-04-13 19:34:30.920] [info] request#21 seq_len:647 channel:10
+[2025-04-13 19:34:30.920] [info] request#22 seq_len:624 channel:14
+[2025-04-13 19:34:30.920] [info] request#23 seq_len:610 channel:7
+[2025-04-13 19:34:30.920] [info] request#24 seq_len:591 channel:18
+[2025-04-13 19:34:30.920] [info] request#25 seq_len:586 channel:1
+[2025-04-13 19:34:30.920] [info] request#26 seq_len:582 channel:30
+[2025-04-13 19:34:30.920] [info] request#27 seq_len:581 channel:2
+[2025-04-13 19:34:30.921] [info] request#28 seq_len:1222 channel:29
+[2025-04-13 19:34:30.921] [info] request#29 seq_len:629 channel:8
+[2025-04-13 19:34:30.921] [info] request#30 seq_len:546 channel:19
+[2025-04-13 19:34:30.921] [info] request#31 seq_len:546 channel:24
+[2025-04-13 19:34:30.921] [info] request#32 seq_len:544 channel:16
+[2025-04-13 19:34:30.921] [info] request#33 seq_len:551 channel:14
+[2025-04-13 19:34:30.921] [info] request#34 seq_len:590 channel:7
+[2025-04-13 19:34:30.921] [info] request#35 seq_len:575 channel:26
+[2025-04-13 19:34:30.921] [info] request#36 seq_len:503 channel:3
+[2025-04-13 19:34:30.921] [info] request#37 seq_len:568 channel:31
+[2025-04-13 19:34:30.921] [info] request#38 seq_len:491 channel:26
+[2025-04-13 19:34:30.922] [info] request#39 seq_len:487 channel:7
+[2025-04-13 19:34:30.922] [info] request#40 seq_len:487 channel:6
+[2025-04-13 19:34:30.922] [info] request#41 seq_len:479 channel:11
+[2025-04-13 19:34:30.922] [info] request#42 seq_len:463 channel:2
+[2025-04-13 19:34:30.922] [info] request#43 seq_len:461 channel:7
+[2025-04-13 19:34:30.922] [info] request#44 seq_len:472 channel:29
+[2025-04-13 19:34:30.922] [info] request#45 seq_len:461 channel:29
+[2025-04-13 19:34:30.922] [info] request#46 seq_len:458 channel:16
+[2025-04-13 19:34:30.922] [info] request#47 seq_len:554 channel:0
+[2025-04-13 19:34:30.922] [info] request#48 seq_len:493 channel:20
+[2025-04-13 19:34:30.922] [info] request#49 seq_len:419 channel:10
+[2025-04-13 19:34:30.922] [info] request#50 seq_len:437 channel:17
+[2025-04-13 19:34:30.922] [info] request#51 seq_len:403 channel:26
+[2025-04-13 19:34:30.922] [info] request#52 seq_len:404 channel:28
+[2025-04-13 19:34:30.922] [info] request#53 seq_len:396 channel:8
+[2025-04-13 19:34:30.922] [info] request#54 seq_len:383 channel:27
+[2025-04-13 19:34:30.922] [info] request#55 seq_len:442 channel:5
+[2025-04-13 19:34:30.923] [info] request#56 seq_len:377 channel:21
+[2025-04-13 19:34:30.923] [info] request#57 seq_len:363 channel:4
+[2025-04-13 19:34:30.923] [info] request#58 seq_len:352 channel:4
+[2025-04-13 19:34:30.923] [info] request#59 seq_len:353 channel:12
+[2025-04-13 19:34:30.923] [info] request#60 seq_len:343 channel:1
+[2025-04-13 19:34:30.923] [info] request#61 seq_len:347 channel:26
+[2025-04-13 19:34:30.923] [info] request#62 seq_len:334 channel:12
+[2025-04-13 19:34:30.923] [info] request#63 seq_len:328 channel:11
+[2025-04-13 19:34:30.923] [info] request#64 seq_len:327 channel:25
+[2025-04-13 19:34:30.923] [info] request#65 seq_len:321 channel:2
+[2025-04-13 19:34:30.923] [info] request#66 seq_len:321 channel:5
+[2025-04-13 19:34:30.923] [info] request#67 seq_len:317 channel:18
+[2025-04-13 19:34:30.923] [info] request#68 seq_len:1323 channel:9
+[2025-04-13 19:34:30.923] [info] request#69 seq_len:326 channel:15
+[2025-04-13 19:34:30.923] [info] request#70 seq_len:516 channel:6
+[2025-04-13 19:34:30.923] [info] request#71 seq_len:354 channel:19
+[2025-04-13 19:34:30.923] [info] request#72 seq_len:329 channel:25
+[2025-04-13 19:34:30.924] [info] request#73 seq_len:325 channel:0
+[2025-04-13 19:34:30.924] [info] request#74 seq_len:308 channel:22
+[2025-04-13 19:34:30.924] [info] request#75 seq_len:304 channel:26
+[2025-04-13 19:34:30.924] [info] request#76 seq_len:303 channel:3
+[2025-04-13 19:34:30.924] [info] request#77 seq_len:302 channel:12
+[2025-04-13 19:34:30.924] [info] request#78 seq_len:304 channel:10
+[2025-04-13 19:34:30.924] [info] request#79 seq_len:298 channel:13
+[2025-04-13 19:34:30.924] [info] request#80 seq_len:291 channel:10
+[2025-04-13 19:34:30.924] [info] request#81 seq_len:308 channel:26
+[2025-04-13 19:34:30.924] [info] request#82 seq_len:294 channel:14
+[2025-04-13 19:34:30.924] [info] request#83 seq_len:281 channel:27
+[2025-04-13 19:34:30.924] [info] request#84 seq_len:273 channel:24
+[2025-04-13 19:34:30.924] [info] request#85 seq_len:314 channel:20
+[2025-04-13 19:34:30.924] [info] request#86 seq_len:292 channel:22
+[2025-04-13 19:34:30.924] [info] request#87 seq_len:287 channel:19
+[2025-04-13 19:34:30.924] [info] request#88 seq_len:261 channel:6
+[2025-04-13 19:34:30.924] [info] request#89 seq_len:944 channel:27
+[2025-04-13 19:34:30.924] [info] request#90 seq_len:276 channel:13
+[2025-04-13 19:34:30.925] [info] request#91 seq_len:268 channel:27
+[2025-04-13 19:34:30.925] [info] request#92 seq_len:261 channel:1
+[2025-04-13 19:34:30.925] [info] request#93 seq_len:258 channel:28
+[2025-04-13 19:34:30.925] [info] request#94 seq_len:284 channel:25
+[2025-04-13 19:34:30.925] [info] request#95 seq_len:272 channel:16
+[2025-04-13 19:34:30.925] [info] request#96 seq_len:266 channel:25
+[2025-04-13 19:34:30.925] [info] request#97 seq_len:261 channel:16
+[2025-04-13 19:34:30.925] [info] request#98 seq_len:243 channel:0
+[2025-04-13 19:34:30.925] [info] request#99 seq_len:270 channel:10
+[2025-04-13 19:34:30.925] [info] request#100 seq_len:267 channel:29
+[2025-04-13 19:34:30.925] [info] request#101 seq_len:261 channel:9
+[2025-04-13 19:34:30.925] [info] request#102 seq_len:237 channel:25
+[2025-04-13 19:34:30.925] [info] request#103 seq_len:330 channel:31
+[2025-04-13 19:34:30.925] [info] request#104 seq_len:317 channel:13
+[2025-04-13 19:34:30.925] [info] request#105 seq_len:309 channel:31
+[2025-04-13 19:34:30.925] [info] request#106 seq_len:249 channel:4
+[2025-04-13 19:34:30.925] [info] request#107 seq_len:249 channel:13
+[2025-04-13 19:34:30.925] [info] request#108 seq_len:236 channel:0
+[2025-04-13 19:34:30.925] [info] request#109 seq_len:465 channel:0
+[2025-04-13 19:34:30.926] [info] request#110 seq_len:257 channel:16
+[2025-04-13 19:34:30.926] [info] request#111 seq_len:254 channel:22
+[2025-04-13 19:34:30.926] [info] request#112 seq_len:242 channel:3
+[2025-04-13 19:34:30.926] [info] request#113 seq_len:232 channel:15
+[2025-04-13 19:34:30.926] [info] request#114 seq_len:220 channel:20
+[2025-04-13 19:34:30.926] [info] request#115 seq_len:471 channel:3
+[2025-04-13 19:34:30.926] [info] request#116 seq_len:237 channel:15
+[2025-04-13 19:34:30.926] [info] request#117 seq_len:221 channel:2
+[2025-04-13 19:34:30.926] [info] request#118 seq_len:218 channel:27
+[2025-04-13 19:34:30.926] [info] request#119 seq_len:211 channel:21
+[2025-04-13 19:34:30.926] [info] request#120 seq_len:207 channel:11
+[2025-04-13 19:34:30.926] [info] request#121 seq_len:206 channel:15
+[2025-04-13 19:34:30.926] [info] request#122 seq_len:221 channel:25
+[2025-04-13 19:34:30.926] [info] request#123 seq_len:214 channel:0
+[2025-04-13 19:34:30.926] [info] request#124 seq_len:210 channel:14
+[2025-04-13 19:34:30.926] [info] request#125 seq_len:202 channel:25
+[2025-04-13 19:34:30.926] [info] request#126 seq_len:199 channel:4
+[2025-04-13 19:34:30.926] [info] request#127 seq_len:197 channel:13
+[2025-04-13 19:34:30.926] [info] request#128 seq_len:191 channel:3
+[2025-04-13 19:34:30.926] [info] request#129 seq_len:192 channel:21
+[2025-04-13 19:34:30.926] [info] request#130 seq_len:188 channel:8
+[2025-04-13 19:34:30.926] [info] request#131 seq_len:186 channel:4
+[2025-04-13 19:34:30.927] [info] request#132 seq_len:260 channel:18
+[2025-04-13 19:34:30.927] [info] request#133 seq_len:207 channel:18
+[2025-04-13 19:34:30.927] [info] request#134 seq_len:200 channel:4
+[2025-04-13 19:34:30.927] [info] request#135 seq_len:185 channel:24
+[2025-04-13 19:34:30.927] [info] request#136 seq_len:178 channel:18
+[2025-04-13 19:34:30.927] [info] request#137 seq_len:495 channel:12
+[2025-04-13 19:34:30.927] [info] request#138 seq_len:400 channel:14
+[2025-04-13 19:34:30.927] [info] request#139 seq_len:294 channel:19
+[2025-04-13 19:34:30.927] [info] request#140 seq_len:257 channel:6
+[2025-04-13 19:34:30.927] [info] request#141 seq_len:190 channel:28
+[2025-04-13 19:34:30.927] [info] request#142 seq_len:181 channel:14
+[2025-04-13 19:34:30.927] [info] request#143 seq_len:170 channel:8
+[2025-04-13 19:34:30.927] [info] request#144 seq_len:168 channel:19
+[2025-04-13 19:34:30.927] [info] request#145 seq_len:167 channel:2
+[2025-04-13 19:34:30.927] [info] request#146 seq_len:161 channel:4
+[2025-04-13 19:34:30.927] [info] request#147 seq_len:240 channel:28
+[2025-04-13 19:34:30.927] [info] request#148 seq_len:226 channel:29
+[2025-04-13 19:34:30.927] [info] request#149 seq_len:176 channel:3
+[2025-04-13 19:34:30.927] [info] request#150 seq_len:163 channel:24
+[2025-04-13 19:34:30.927] [info] request#151 seq_len:162 channel:21
+[2025-04-13 19:34:30.928] [info] request#152 seq_len:161 channel:0
+[2025-04-13 19:34:30.928] [info] request#153 seq_len:158 channel:30
+[2025-04-13 19:34:30.928] [info] request#154 seq_len:290 channel:24
+[2025-04-13 19:34:30.928] [info] request#155 seq_len:184 channel:22
+[2025-04-13 19:34:30.928] [info] request#156 seq_len:172 channel:24
+[2025-04-13 19:34:30.928] [info] request#157 seq_len:163 channel:3
+[2025-04-13 19:34:30.928] [info] request#158 seq_len:159 channel:21
+[2025-04-13 19:34:30.928] [info] request#159 seq_len:157 channel:19
+[2025-04-13 19:34:30.928] [info] request#160 seq_len:151 channel:16
+[2025-04-13 19:34:30.928] [info] request#161 seq_len:145 channel:9
+[2025-04-13 19:34:30.928] [info] request#162 seq_len:143 channel:24
+[2025-04-13 19:34:30.928] [info] request#163 seq_len:222 channel:20
+[2025-04-13 19:34:30.928] [info] request#164 seq_len:177 channel:22
+[2025-04-13 19:34:30.928] [info] request#165 seq_len:156 channel:12
+[2025-04-13 19:34:30.928] [info] request#166 seq_len:139 channel:22
+[2025-04-13 19:34:30.928] [info] request#167 seq_len:1501 channel:31
+[2025-04-13 19:34:30.928] [info] request#168 seq_len:142 channel:28
+[2025-04-13 19:34:30.928] [info] request#169 seq_len:139 channel:6
+[2025-04-13 19:34:30.928] [info] request#170 seq_len:136 channel:12
+[2025-04-13 19:34:30.928] [info] request#171 seq_len:129 channel:17
+[2025-04-13 19:34:30.929] [info] request#172 seq_len:122 channel:28
+[2025-04-13 19:34:30.929] [info] request#173 seq_len:154 channel:30
+[2025-04-13 19:34:30.929] [info] request#174 seq_len:148 channel:17
+[2025-04-13 19:34:30.929] [info] request#175 seq_len:130 channel:30
+[2025-04-13 19:34:30.929] [info] request#176 seq_len:119 channel:2
+[2025-04-13 19:34:30.929] [info] request#177 seq_len:111 channel:17
+[2025-04-13 19:34:30.929] [info] request#178 seq_len:111 channel:3
+[2025-04-13 19:34:30.929] [info] request#179 seq_len:1082 channel:8
+[2025-04-13 19:34:30.929] [info] request#180 seq_len:671 channel:5
+[2025-04-13 19:34:30.929] [info] request#181 seq_len:158 channel:21
+[2025-04-13 19:34:30.929] [info] request#182 seq_len:111 channel:6
+[2025-04-13 19:34:30.929] [info] request#183 seq_len:103 channel:21
+[2025-04-13 19:34:30.929] [info] request#184 seq_len:188 channel:20
+[2025-04-13 19:34:30.929] [info] request#185 seq_len:121 channel:20
+[2025-04-13 19:34:30.929] [info] request#186 seq_len:118 channel:12
+[2025-04-13 19:34:30.929] [info] request#187 seq_len:115 channel:18
+[2025-04-13 19:34:30.929] [info] request#188 seq_len:103 channel:13
+[2025-04-13 19:34:30.929] [info] request#189 seq_len:101 channel:29
+[2025-04-13 19:34:30.929] [info] request#190 seq_len:99 channel:31
+[2025-04-13 19:34:30.929] [info] request#191 seq_len:98 channel:20
+[2025-04-13 19:34:30.929] [info] request#192 seq_len:96 channel:12
+[2025-04-13 19:34:30.930] [info] request#193 seq_len:137 channel:2
+[2025-04-13 19:34:30.930] [info] request#194 seq_len:136 channel:2
+[2025-04-13 19:34:30.930] [info] request#195 seq_len:116 channel:1
+[2025-04-13 19:34:30.930] [info] request#196 seq_len:95 channel:2
+[2025-04-13 19:34:30.930] [info] request#197 seq_len:102 channel:6
+[2025-04-13 19:34:30.930] [info] request#198 seq_len:84 channel:1
+[2025-04-13 19:34:30.930] [info] request#199 seq_len:76 channel:15
+[2025-04-13 19:34:30.930] [info] request#200 seq_len:71 channel:13
+[2025-04-13 19:34:30.930] [info] request#201 seq_len:135 channel:15
+[2025-04-13 19:34:30.930] [info] request#202 seq_len:92 channel:17
+[2025-04-13 19:34:30.930] [info] request#203 seq_len:76 channel:29
+[2025-04-13 19:34:30.930] [info] request#204 seq_len:75 channel:23
+[2025-04-13 19:34:30.930] [info] request#205 seq_len:73 channel:15
+[2025-04-13 19:34:30.930] [info] request#206 seq_len:68 channel:3
+[2025-04-13 19:34:30.930] [info] request#207 seq_len:65 channel:22
+[2025-04-13 19:34:30.930] [info] request#208 seq_len:63 channel:4
+[2025-04-13 19:34:30.930] [info] request#209 seq_len:499 channel:14
+[2025-04-13 19:34:30.930] [info] request#210 seq_len:312 channel:28
+[2025-04-13 19:34:30.930] [info] request#211 seq_len:116 channel:14
+[2025-04-13 19:34:30.930] [info] request#212 seq_len:84 channel:9
+[2025-04-13 19:34:30.930] [info] request#213 seq_len:79 channel:11
+[2025-04-13 19:34:30.930] [info] request#214 seq_len:71 channel:23
+[2025-04-13 19:34:30.930] [info] request#215 seq_len:69 channel:15
+[2025-04-13 19:34:30.931] [info] request#216 seq_len:65 channel:28
+[2025-04-13 19:34:30.931] [info] request#217 seq_len:63 channel:6
+[2025-04-13 19:34:30.931] [info] request#218 seq_len:60 channel:1
+[2025-04-13 19:34:30.931] [info] request#219 seq_len:60 channel:17
+[2025-04-13 19:34:30.931] [info] request#220 seq_len:269 channel:1
+[2025-04-13 19:34:30.931] [info] request#221 seq_len:66 channel:19
+[2025-04-13 19:34:30.931] [info] request#222 seq_len:62 channel:1
+[2025-04-13 19:34:30.931] [info] request#223 seq_len:57 channel:30
+[2025-04-13 19:34:30.931] [info] request#224 seq_len:52 channel:19
+[2025-04-13 19:34:30.931] [info] request#225 seq_len:48 channel:5
+[2025-04-13 19:34:30.931] [info] request#226 seq_len:41 channel:10
+[2025-04-13 19:34:30.931] [info] request#227 seq_len:41 channel:27
+[2025-04-13 19:34:30.931] [info] request#228 seq_len:95 channel:20
+[2025-04-13 19:34:30.931] [info] request#229 seq_len:71 channel:9
+[2025-04-13 19:34:30.931] [info] request#230 seq_len:70 channel:1
+[2025-04-13 19:34:30.931] [info] request#231 seq_len:53 channel:20
+[2025-04-13 19:34:30.931] [info] request#232 seq_len:40 channel:19
+[2025-04-13 19:34:30.931] [info] request#233 seq_len:33 channel:22
+[2025-04-13 19:34:30.931] [info] request#234 seq_len:55 channel:26
+[2025-04-13 19:34:30.931] [info] request#235 seq_len:48 channel:24
+[2025-04-13 19:34:30.931] [info] request#236 seq_len:41 channel:4
+[2025-04-13 19:34:30.931] [info] request#237 seq_len:41 channel:18
+[2025-04-13 19:34:30.931] [info] request#238 seq_len:40 channel:25
+[2025-04-13 19:34:30.931] [info] request#239 seq_len:829 channel:11
+[2025-04-13 19:34:30.932] [info] request#240 seq_len:38 channel:13
+[2025-04-13 19:34:30.932] [info] request#241 seq_len:36 channel:5
+[2025-04-13 19:34:30.932] [info] request#242 seq_len:25 channel:13
+[2025-04-13 19:34:30.932] [info] request#243 seq_len:24 channel:5
+[2025-04-13 19:34:30.932] [info] request#244 seq_len:17 channel:26
+[2025-04-13 19:34:30.932] [info] request#245 seq_len:17 channel:11
+[2025-04-13 19:34:30.932] [info] request#246 seq_len:15 channel:31
+[2025-04-13 19:34:30.932] [info] request#247 seq_len:15 channel:13
+[2025-04-13 19:34:30.932] [info] request#248 seq_len:13 channel:20
+[2025-04-13 19:34:30.932] [info] request#249 seq_len:311 channel:30
+[2025-04-13 19:34:30.932] [info] request#250 seq_len:50 channel:25
+[2025-04-13 19:34:30.932] [info] request#251 seq_len:20 channel:7
+[2025-04-13 19:34:30.932] [info] request#252 seq_len:15 channel:4
+[2025-04-13 19:34:30.932] [info] request#253 seq_len:13 channel:24
+[2025-04-13 19:34:30.932] [info] request#254 seq_len:13 channel:25
+[2025-04-13 19:34:30.932] [info] request#255 seq_len:9 channel:30
+[2025-04-13 19:34:30.932] [info] total batch_size: 256
+[2025-04-13 19:34:30.932] [info] [1;31m----------Stage A----------[0m
+[2025-04-13 19:34:30.932] [info] New Program for SA  (sub-batch.size: 128)
+[2025-04-13 19:34:30.932] [info] New Program for PIM (sub-batch.size: 128)
+[2025-04-13 19:34:30.932] [info] >>> Initialize SystolicArray Stage Model Program <<<
+[2025-04-13 19:34:31.000] [info] (RMSNrom)input dims : [128, 8192] [8192]
+[2025-04-13 19:34:31.000] [info] (RMSNrom)output dim : [128, 8192]
+[2025-04-13 19:34:31.000] [info] MatMul input idx: 0 / input sz: [128, 8192]
+[2025-04-13 19:34:31.000] [info] MatMul output sz: [128, 1536]
+[2025-04-13 19:34:31.000] [info] MatMul inner loop: [1536, 8192, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:34:44.165] [info] input0 : [128, 8192]  / input1: [8192, 1536] / output0 : [128, 1536]
+[2025-04-13 19:34:44.165] [info] outer loop : [1, 1, 1] / inner loop : [1536, 8192, 128]
+[2025-04-13 19:34:44.165] [info] [1;33mSA : QKV generation[0m
+[2025-04-13 19:34:44.165] [info] [1;33mPIM: skip[0m
+[2025-04-13 19:34:44.165] [info] Start operation layer0.attn.rn
+[2025-04-13 19:34:44.187] [info] Model finish at 1
+[2025-04-13 19:34:44.187] [info] tile issued init layer0.attn.rn 963 
+[2025-04-13 19:34:49.171] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:34:49.171] [info] Layer layer0.attn.rn finish at 3958
+[2025-04-13 19:34:49.171] [info] Total compute time 3957
+[2025-04-13 19:34:49.171] [info] Start operation layer0.attn.QKVgen
+[2025-04-13 19:34:49.293] [info] tile issued init layer0.attn.QKVgen 965 
+[2025-04-13 19:36:49.178] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:36:49.179] [info] Layer layer0.attn.QKVgen finish at 35916
+[2025-04-13 19:36:49.179] [info] Total compute time 31958
+[2025-04-13 19:36:49.179] [info] Model finish at 35916
+[2025-04-13 19:36:49.179] [info] [1;31m------- Stage A Done -------[0m
+[2025-04-13 19:36:49.188] [info] [1;31m----------Stage B----------[0m
+[2025-04-13 19:36:49.188] [info] New Program for SA  (sub-batch.size: 128)
+[2025-04-13 19:36:49.188] [info] New Program for PIM (sub-batch.size: 128)
+[2025-04-13 19:36:49.188] [info] >>> Initialize SystolicArray Stage Model Program <<<
+[2025-04-13 19:36:49.265] [info] (RMSNrom)input dims : [128, 8192] [8192]
+[2025-04-13 19:36:49.265] [info] (RMSNrom)output dim : [128, 8192]
+[2025-04-13 19:36:49.266] [info] MatMul input idx: 0 / input sz: [128, 8192]
+[2025-04-13 19:36:49.266] [info] MatMul output sz: [128, 1536]
+[2025-04-13 19:36:49.266] [info] MatMul inner loop: [1536, 8192, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:37:02.469] [info] input0 : [128, 8192]  / input1: [8192, 1536] / output0 : [128, 1536]
+[2025-04-13 19:37:02.469] [info] outer loop : [1, 1, 1] / inner loop : [1536, 8192, 128]
+[2025-04-13 19:37:02.469] [info] [1;33mSA : QKV generation[0m
+[2025-04-13 19:37:02.469] [info] >>> Initialize PIM Stage Model Program <<<
+[2025-04-13 19:37:02.469] [info] [1;33mPIM: MHA[0m
+[2025-04-13 19:37:02.471] [info] NeuPIMSLogitSoftmax (batch size): 128
+[2025-04-13 19:37:02.471] [info] (NeuPIMSLogitSoftmax) nh:2, dk:128
+[2025-04-13 19:37:02.472] [info] heads per dram page: 4
+[2025-04-13 19:37:02.472] [info] _E:256, _E/heads_per_dram_page:1
+[2025-04-13 19:37:02.472] [info] chunks: 1
+[2025-04-13 19:37:02.472] [info] heads per tile: 4
+[2025-04-13 19:37:02.472] [info] heads in last chunk: 4
+[2025-04-13 19:37:02.472] [info] comps per head: 8
+[2025-04-13 19:37:02.488] [info] output dim : 128
+[2025-04-13 19:37:02.494] [info] output dim (batch size): 128
+[2025-04-13 19:37:02.494] [info] Start operation layer0.attn.rn
+[2025-04-13 19:37:02.519] [info] Start operation layer0.attn.NeuPIMSLogitSoftmax
+[2025-04-13 19:37:02.530] [info] tile issued init layer0.attn.rn 968 
+[2025-04-13 19:37:02.589] [info] pim tile issued init layer0.attn.NeuPIMSLogitSoftmax 1100 
+[2025-04-13 19:37:07.595] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:37:07.595] [info] Layer layer0.attn.rn finish at 39600
+[2025-04-13 19:37:07.595] [info] Total compute time 3683
+[2025-04-13 19:37:07.595] [info] Start operation layer0.attn.QKVgen
+[2025-04-13 19:37:07.711] [info] tile issued init layer0.attn.QKVgen 970 
+[2025-04-13 19:39:33.667] [info] Finish tile stage_platform:PIM
+tile stat: 
+[2025-04-13 19:39:33.667] [info] Layer layer0.attn.NeuPIMSLogitSoftmax finish at 68888
+[2025-04-13 19:39:33.667] [info] Total compute time 32971
+[2025-04-13 19:39:33.672] [info] Start operation layer0.attn.NeuPIMSAttend
+[2025-04-13 19:39:33.676] [info] pim tile issued init layer0.attn.NeuPIMSAttend 1229 
+[2025-04-13 19:39:39.022] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:39:39.023] [info] Layer layer0.attn.QKVgen finish at 78290
+[2025-04-13 19:39:39.023] [info] Total compute time 38690
+[2025-04-13 19:39:39.023] [info] Model finish at 78290
+[2025-04-13 19:39:39.529] [info] Finish tile stage_platform:PIM
+tile stat: 
+[2025-04-13 19:39:39.529] [info] Layer layer0.attn.NeuPIMSAttend finish at 81794
+[2025-04-13 19:39:39.529] [info] Total compute time 12906
+[2025-04-13 19:39:39.529] [info] Model finish at 81794
+[2025-04-13 19:39:39.529] [info] [1;31m------- Stage B Done -------[0m
+[2025-04-13 19:39:39.535] [info] [1;31m----------Stage C----------[0m
+[2025-04-13 19:39:39.535] [info] New Program for SA  (sub-batch.size: 128)
+[2025-04-13 19:39:39.535] [info] New Program for PIM (sub-batch.size: 128)
+[2025-04-13 19:39:39.535] [info] >>> Initialize SystolicArray Stage Model Program <<<
+[2025-04-13 19:39:39.535] [info] MatMul input idx: 0 / input sz: [128, 512]
+[2025-04-13 19:39:39.535] [info] MatMul output sz: [128, 8192]
+[2025-04-13 19:39:39.535] [info] MatMul inner loop: [8192, 512, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:39:44.372] [info] input0 : [128, 512]  / input1: [512, 8192] / output0 : [128, 8192]
+[2025-04-13 19:39:44.372] [info] outer loop : [1, 1, 1] / inner loop : [8192, 512, 128]
+[2025-04-13 19:39:44.372] [info] _input_dim:[128, 8192], _inputs[1]->get_dims():[128, 8192]
+[2025-04-13 19:39:44.514] [info] (RMSNrom)input dims : [128, 8192] [8192]
+[2025-04-13 19:39:44.514] [info] (RMSNrom)output dim : [128, 8192]
+[2025-04-13 19:39:44.514] [info] MatMul input idx: 0 / input sz: [128, 8192]
+[2025-04-13 19:39:44.514] [info] MatMul output sz: [128, 2048]
+[2025-04-13 19:39:44.514] [info] MatMul inner loop: [2048, 8192, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:40:01.586] [info] input0 : [128, 8192]  / input1: [8192, 2048] / output0 : [128, 2048]
+[2025-04-13 19:40:01.586] [info] outer loop : [1, 1, 1] / inner loop : [2048, 8192, 128]
+[2025-04-13 19:40:01.601] [info] MatMul input idx: 0 / input sz: [128, 2048]
+[2025-04-13 19:40:01.601] [info] MatMul output sz: [128, 8192]
+[2025-04-13 19:40:01.601] [info] MatMul inner loop: [8192, 2048, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:40:18.570] [info] input0 : [128, 2048]  / input1: [2048, 8192] / output0 : [128, 8192]
+[2025-04-13 19:40:18.570] [info] outer loop : [1, 1, 1] / inner loop : [8192, 2048, 128]
+[2025-04-13 19:40:18.570] [info] _input_dim:[128, 8192], _inputs[1]->get_dims():[128, 8192]
+[2025-04-13 19:40:18.666] [info] [1;33mSA : Projection + FFN1 + FFN2[0m
+[2025-04-13 19:40:18.731] [info] (RMSNrom)input dims : [128, 8192] [8192]
+[2025-04-13 19:40:18.731] [info] (RMSNrom)output dim : [128, 8192]
+[2025-04-13 19:40:18.731] [info] MatMul input idx: 0 / input sz: [128, 8192]
+[2025-04-13 19:40:18.731] [info] MatMul output sz: [128, 1536]
+[2025-04-13 19:40:18.731] [info] MatMul inner loop: [1536, 8192, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:40:31.852] [info] input0 : [128, 8192]  / input1: [8192, 1536] / output0 : [128, 1536]
+[2025-04-13 19:40:31.852] [info] outer loop : [1, 1, 1] / inner loop : [1536, 8192, 128]
+[2025-04-13 19:40:31.852] [info] [1;33mSA : QKV generation[0m
+[2025-04-13 19:40:31.852] [info] >>> Initialize PIM Stage Model Program <<<
+[2025-04-13 19:40:31.852] [info] [1;33mPIM: MHA[0m
+[2025-04-13 19:40:31.854] [info] NeuPIMSLogitSoftmax (batch size): 128
+[2025-04-13 19:40:31.854] [info] (NeuPIMSLogitSoftmax) nh:2, dk:128
+[2025-04-13 19:40:31.854] [info] heads per dram page: 4
+[2025-04-13 19:40:31.854] [info] _E:256, _E/heads_per_dram_page:1
+[2025-04-13 19:40:31.855] [info] chunks: 1
+[2025-04-13 19:40:31.855] [info] heads per tile: 4
+[2025-04-13 19:40:31.855] [info] heads in last chunk: 4
+[2025-04-13 19:40:31.855] [info] comps per head: 8
+[2025-04-13 19:40:31.862] [info] output dim : 128
+[2025-04-13 19:40:31.865] [info] output dim (batch size): 128
+[2025-04-13 19:40:31.865] [info] Start operation layer0.attn.proj
+[2025-04-13 19:40:31.909] [info] Start operation layer0.attn.NeuPIMSLogitSoftmax
+[2025-04-13 19:40:31.913] [info] tile issued init layer0.attn.proj 1360 
+[2025-04-13 19:40:31.953] [info] pim tile issued init layer0.attn.NeuPIMSLogitSoftmax 1506 
+[2025-04-13 19:41:00.722] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:41:00.722] [info] Layer layer0.attn.proj finish at 94055
+[2025-04-13 19:41:00.722] [info] Total compute time 12260
+[2025-04-13 19:41:00.722] [info] Start operation layer0.attn.res
+[2025-04-13 19:41:00.728] [info] tile issued init layer0.attn.res 1362 
+[2025-04-13 19:41:08.936] [info] Finish tile stage_platform:PIM
+tile stat: 
+[2025-04-13 19:41:08.936] [info] Layer layer0.attn.NeuPIMSLogitSoftmax finish at 98744
+[2025-04-13 19:41:08.936] [info] Total compute time 16949
+[2025-04-13 19:41:08.942] [info] Start operation layer0.attn.NeuPIMSAttend
+[2025-04-13 19:41:08.945] [info] pim tile issued init layer0.attn.NeuPIMSAttend 1635 
+[2025-04-13 19:41:10.264] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:41:10.264] [info] Layer layer0.attn.res finish at 100358
+[2025-04-13 19:41:10.264] [info] Total compute time 6303
+[2025-04-13 19:41:10.264] [info] Start operation layer0.ffn.rn
+[2025-04-13 19:41:10.268] [info] tile issued init layer0.ffn.rn 1364 
+[2025-04-13 19:41:15.806] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:41:15.806] [info] Layer layer0.ffn.rn finish at 104832
+[2025-04-13 19:41:15.806] [info] Total compute time 4474
+[2025-04-13 19:41:15.806] [info] Start operation layer0.ffn.fc1
+[2025-04-13 19:41:15.959] [info] tile issued init layer0.ffn.fc1 1366 
+[2025-04-13 19:41:42.816] [info] Finish tile stage_platform:PIM
+tile stat: 
+[2025-04-13 19:41:42.816] [info] Layer layer0.attn.NeuPIMSAttend finish at 110790
+[2025-04-13 19:41:42.816] [info] Total compute time 12046
+[2025-04-13 19:41:42.816] [info] Model finish at 110790
+[2025-04-13 19:44:07.459] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:44:07.459] [info] Layer layer0.ffn.fc1 finish at 147490
+[2025-04-13 19:44:07.459] [info] Total compute time 42658
+[2025-04-13 19:44:07.459] [info] Start operation layer0.ffn.swish
+[2025-04-13 19:44:07.460] [info] tile issued init layer0.ffn.swish 1368 
+[2025-04-13 19:44:08.087] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:44:08.087] [info] Layer layer0.ffn.swish finish at 148253
+[2025-04-13 19:44:08.087] [info] Total compute time 763
+[2025-04-13 19:44:08.087] [info] Start operation layer0.ffn.fc2
+[2025-04-13 19:44:08.116] [info] tile issued init layer0.ffn.fc2 1370 
+[2025-04-13 19:47:21.443] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:47:21.443] [info] Layer layer0.ffn.fc2 finish at 184127
+[2025-04-13 19:47:21.443] [info] Total compute time 35874
+[2025-04-13 19:47:21.443] [info] Start operation layer0.ffn.res
+[2025-04-13 19:47:21.450] [info] tile issued init layer0.ffn.res 1372 
+[2025-04-13 19:47:31.953] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:47:31.953] [info] Layer layer0.ffn.res finish at 190358
+[2025-04-13 19:47:31.953] [info] Total compute time 6231
+[2025-04-13 19:47:31.953] [info] Start operation layer0.attn.rn
+[2025-04-13 19:47:31.957] [info] tile issued init layer0.attn.rn 1374 
+[2025-04-13 19:47:36.648] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:47:36.648] [info] Layer layer0.attn.rn finish at 193581
+[2025-04-13 19:47:36.648] [info] Total compute time 3223
+[2025-04-13 19:47:36.648] [info] Start operation layer0.attn.QKVgen
+[2025-04-13 19:47:36.672] [info] tile issued init layer0.attn.QKVgen 1376 
+[2025-04-13 19:49:26.226] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:49:26.226] [info] Layer layer0.attn.QKVgen finish at 227678
+[2025-04-13 19:49:26.226] [info] Total compute time 34097
+[2025-04-13 19:49:26.226] [info] Model finish at 227678
+[2025-04-13 19:49:26.226] [info] [1;31m------- Stage C Done -------[0m
+[2025-04-13 19:49:26.235] [info] [1;31m----------Stage D----------[0m
+[2025-04-13 19:49:26.235] [info] New Program for SA  (sub-batch.size: 128)
+[2025-04-13 19:49:26.235] [info] New Program for PIM (sub-batch.size: 128)
+[2025-04-13 19:49:26.235] [info] >>> Initialize SystolicArray Stage Model Program <<<
+[2025-04-13 19:49:26.235] [info] MatMul input idx: 0 / input sz: [128, 512]
+[2025-04-13 19:49:26.235] [info] MatMul output sz: [128, 8192]
+[2025-04-13 19:49:26.235] [info] MatMul inner loop: [8192, 512, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:49:31.077] [info] input0 : [128, 512]  / input1: [512, 8192] / output0 : [128, 8192]
+[2025-04-13 19:49:31.077] [info] outer loop : [1, 1, 1] / inner loop : [8192, 512, 128]
+[2025-04-13 19:49:31.077] [info] _input_dim:[128, 8192], _inputs[1]->get_dims():[128, 8192]
+[2025-04-13 19:49:31.217] [info] (RMSNrom)input dims : [128, 8192] [8192]
+[2025-04-13 19:49:31.217] [info] (RMSNrom)output dim : [128, 8192]
+[2025-04-13 19:49:31.217] [info] MatMul input idx: 0 / input sz: [128, 8192]
+[2025-04-13 19:49:31.217] [info] MatMul output sz: [128, 2048]
+[2025-04-13 19:49:31.217] [info] MatMul inner loop: [2048, 8192, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:49:48.295] [info] input0 : [128, 8192]  / input1: [8192, 2048] / output0 : [128, 2048]
+[2025-04-13 19:49:48.295] [info] outer loop : [1, 1, 1] / inner loop : [2048, 8192, 128]
+[2025-04-13 19:49:48.310] [info] MatMul input idx: 0 / input sz: [128, 2048]
+[2025-04-13 19:49:48.310] [info] MatMul output sz: [128, 8192]
+[2025-04-13 19:49:48.310] [info] MatMul inner loop: [8192, 2048, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:50:05.274] [info] input0 : [128, 2048]  / input1: [2048, 8192] / output0 : [128, 8192]
+[2025-04-13 19:50:05.274] [info] outer loop : [1, 1, 1] / inner loop : [8192, 2048, 128]
+[2025-04-13 19:50:05.274] [info] _input_dim:[128, 8192], _inputs[1]->get_dims():[128, 8192]
+[2025-04-13 19:50:05.358] [info] [1;33mSA : Projection + FFN1 + FFN2[0m
+[2025-04-13 19:50:05.415] [info] (RMSNrom)input dims : [128, 8192] [8192]
+[2025-04-13 19:50:05.415] [info] (RMSNrom)output dim : [128, 8192]
+[2025-04-13 19:50:05.415] [info] MatMul input idx: 0 / input sz: [128, 8192]
+[2025-04-13 19:50:05.415] [info] MatMul output sz: [128, 1536]
+[2025-04-13 19:50:05.415] [info] MatMul inner loop: [1536, 8192, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:50:18.516] [info] input0 : [128, 8192]  / input1: [8192, 1536] / output0 : [128, 1536]
+[2025-04-13 19:50:18.516] [info] outer loop : [1, 1, 1] / inner loop : [1536, 8192, 128]
+[2025-04-13 19:50:18.516] [info] [1;33mSA : QKV generation[0m
+[2025-04-13 19:50:18.516] [info] >>> Initialize PIM Stage Model Program <<<
+[2025-04-13 19:50:18.516] [info] [1;33mPIM: MHA[0m
+[2025-04-13 19:50:18.517] [info] NeuPIMSLogitSoftmax (batch size): 128
+[2025-04-13 19:50:18.517] [info] (NeuPIMSLogitSoftmax) nh:2, dk:128
+[2025-04-13 19:50:18.518] [info] heads per dram page: 4
+[2025-04-13 19:50:18.518] [info] _E:256, _E/heads_per_dram_page:1
+[2025-04-13 19:50:18.518] [info] chunks: 1
+[2025-04-13 19:50:18.518] [info] heads per tile: 4
+[2025-04-13 19:50:18.518] [info] heads in last chunk: 4
+[2025-04-13 19:50:18.518] [info] comps per head: 8
+[2025-04-13 19:50:18.532] [info] output dim : 128
+[2025-04-13 19:50:18.538] [info] output dim (batch size): 128
+[2025-04-13 19:50:18.538] [info] Start operation layer0.attn.proj
+[2025-04-13 19:50:18.581] [info] Start operation layer0.attn.NeuPIMSLogitSoftmax
+[2025-04-13 19:50:18.591] [info] tile issued init layer0.attn.proj 1766 
+[2025-04-13 19:50:18.631] [info] pim tile issued init layer0.attn.NeuPIMSLogitSoftmax 1912 
+[2025-04-13 19:50:46.158] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:50:46.158] [info] Layer layer0.attn.proj finish at 239265
+[2025-04-13 19:50:46.158] [info] Total compute time 11586
+[2025-04-13 19:50:46.158] [info] Start operation layer0.attn.res
+[2025-04-13 19:50:46.165] [info] tile issued init layer0.attn.res 1768 
+[2025-04-13 19:50:57.230] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:50:57.230] [info] Layer layer0.attn.res finish at 245599
+[2025-04-13 19:50:57.230] [info] Total compute time 6334
+[2025-04-13 19:50:57.230] [info] Start operation layer0.ffn.rn
+[2025-04-13 19:50:57.234] [info] tile issued init layer0.ffn.rn 1770 
+[2025-04-13 19:51:04.710] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:51:04.710] [info] Layer layer0.ffn.rn finish at 252641
+[2025-04-13 19:51:04.710] [info] Total compute time 7042
+[2025-04-13 19:51:04.710] [info] Start operation layer0.ffn.fc1
+[2025-04-13 19:51:04.862] [info] tile issued init layer0.ffn.fc1 1772 
+[2025-04-13 19:52:02.385] [info] Finish tile stage_platform:PIM
+tile stat: 
+[2025-04-13 19:52:02.385] [info] Layer layer0.attn.NeuPIMSLogitSoftmax finish at 263442
+[2025-04-13 19:52:02.385] [info] Total compute time 35763
+[2025-04-13 19:52:02.390] [info] Start operation layer0.attn.NeuPIMSAttend
+[2025-04-13 19:52:02.395] [info] pim tile issued init layer0.attn.NeuPIMSAttend 2041 
+[2025-04-13 19:53:06.273] [info] Finish tile stage_platform:PIM
+tile stat: 
+[2025-04-13 19:53:06.273] [info] Layer layer0.attn.NeuPIMSAttend finish at 276577
+[2025-04-13 19:53:06.273] [info] Total compute time 13135
+[2025-04-13 19:53:06.273] [info] Model finish at 276577
+[2025-04-13 19:53:51.627] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:53:51.627] [info] Layer layer0.ffn.fc1 finish at 297713
+[2025-04-13 19:53:51.627] [info] Total compute time 45072
+[2025-04-13 19:53:51.627] [info] Start operation layer0.ffn.swish
+[2025-04-13 19:53:51.629] [info] tile issued init layer0.ffn.swish 1774 
+[2025-04-13 19:53:52.169] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:53:52.169] [info] Layer layer0.ffn.swish finish at 298364
+[2025-04-13 19:53:52.169] [info] Total compute time 651
+[2025-04-13 19:53:52.169] [info] Start operation layer0.ffn.fc2
+[2025-04-13 19:53:52.197] [info] tile issued init layer0.ffn.fc2 1776 
+[2025-04-13 19:55:57.419] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:55:57.419] [info] Layer layer0.ffn.fc2 finish at 336715
+[2025-04-13 19:55:57.419] [info] Total compute time 38351
+[2025-04-13 19:55:57.419] [info] Start operation layer0.ffn.res
+[2025-04-13 19:55:57.424] [info] tile issued init layer0.ffn.res 1778 
+[2025-04-13 19:56:07.811] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:56:07.811] [info] Layer layer0.ffn.res finish at 342477
+[2025-04-13 19:56:07.811] [info] Total compute time 5762
+[2025-04-13 19:56:07.811] [info] Start operation layer0.attn.rn
+[2025-04-13 19:56:07.814] [info] tile issued init layer0.attn.rn 1780 
+[2025-04-13 19:56:12.730] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:56:12.730] [info] Layer layer0.attn.rn finish at 345938
+[2025-04-13 19:56:12.730] [info] Total compute time 3461
+[2025-04-13 19:56:12.730] [info] Start operation layer0.attn.QKVgen
+[2025-04-13 19:56:12.753] [info] tile issued init layer0.attn.QKVgen 1782 
+[2025-04-13 19:58:14.832] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:58:14.832] [info] Layer layer0.attn.QKVgen finish at 380112
+[2025-04-13 19:58:14.832] [info] Total compute time 34174
+[2025-04-13 19:58:14.832] [info] Model finish at 380112
+[2025-04-13 19:58:14.832] [info] [1;31m------- Stage D Done -------[0m
+[2025-04-13 19:58:14.841] [info] [1;31m----------Stage E----------[0m
+[2025-04-13 19:58:14.841] [info] New Program for SA  (sub-batch.size: 128)
+[2025-04-13 19:58:14.841] [info] New Program for PIM (sub-batch.size: 128)
+[2025-04-13 19:58:14.841] [info] >>> Initialize SystolicArray Stage Model Program <<<
+[2025-04-13 19:58:14.841] [info] MatMul input idx: 0 / input sz: [128, 512]
+[2025-04-13 19:58:14.841] [info] MatMul output sz: [128, 8192]
+[2025-04-13 19:58:14.841] [info] MatMul inner loop: [8192, 512, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:58:19.685] [info] input0 : [128, 512]  / input1: [512, 8192] / output0 : [128, 8192]
+[2025-04-13 19:58:19.685] [info] outer loop : [1, 1, 1] / inner loop : [8192, 512, 128]
+[2025-04-13 19:58:19.685] [info] _input_dim:[128, 8192], _inputs[1]->get_dims():[128, 8192]
+[2025-04-13 19:58:19.825] [info] (RMSNrom)input dims : [128, 8192] [8192]
+[2025-04-13 19:58:19.825] [info] (RMSNrom)output dim : [128, 8192]
+[2025-04-13 19:58:19.825] [info] MatMul input idx: 0 / input sz: [128, 8192]
+[2025-04-13 19:58:19.825] [info] MatMul output sz: [128, 2048]
+[2025-04-13 19:58:19.825] [info] MatMul inner loop: [2048, 8192, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:58:36.908] [info] input0 : [128, 8192]  / input1: [8192, 2048] / output0 : [128, 2048]
+[2025-04-13 19:58:36.908] [info] outer loop : [1, 1, 1] / inner loop : [2048, 8192, 128]
+[2025-04-13 19:58:36.923] [info] MatMul input idx: 0 / input sz: [128, 2048]
+[2025-04-13 19:58:36.923] [info] MatMul output sz: [128, 8192]
+[2025-04-13 19:58:36.923] [info] MatMul inner loop: [8192, 2048, 128], outer loop: [1, 1, 1]
+[2025-04-13 19:58:53.867] [info] input0 : [128, 2048]  / input1: [2048, 8192] / output0 : [128, 8192]
+[2025-04-13 19:58:53.867] [info] outer loop : [1, 1, 1] / inner loop : [8192, 2048, 128]
+[2025-04-13 19:58:53.867] [info] _input_dim:[128, 8192], _inputs[1]->get_dims():[128, 8192]
+[2025-04-13 19:58:53.952] [info] [1;33mSA : Projection + FFN1 + FFN2[0m
+[2025-04-13 19:58:53.952] [info] >>> Initialize PIM Stage Model Program <<<
+[2025-04-13 19:58:53.952] [info] [1;33mPIM: MHA[0m
+[2025-04-13 19:58:53.953] [info] NeuPIMSLogitSoftmax (batch size): 128
+[2025-04-13 19:58:53.953] [info] (NeuPIMSLogitSoftmax) nh:2, dk:128
+[2025-04-13 19:58:53.954] [info] heads per dram page: 4
+[2025-04-13 19:58:53.954] [info] _E:256, _E/heads_per_dram_page:1
+[2025-04-13 19:58:53.954] [info] chunks: 1
+[2025-04-13 19:58:53.954] [info] heads per tile: 4
+[2025-04-13 19:58:53.954] [info] heads in last chunk: 4
+[2025-04-13 19:58:53.954] [info] comps per head: 8
+[2025-04-13 19:58:53.961] [info] output dim : 128
+[2025-04-13 19:58:53.965] [info] output dim (batch size): 128
+[2025-04-13 19:58:53.965] [info] Start operation layer0.attn.proj
+[2025-04-13 19:58:53.973] [info] Start operation layer0.attn.NeuPIMSLogitSoftmax
+[2025-04-13 19:58:53.978] [info] tile issued init layer0.attn.proj 2172 
+[2025-04-13 19:58:54.010] [info] pim tile issued init layer0.attn.NeuPIMSLogitSoftmax 2314 
+[2025-04-13 19:59:21.360] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:59:21.360] [info] Layer layer0.attn.proj finish at 392265
+[2025-04-13 19:59:21.360] [info] Total compute time 12152
+[2025-04-13 19:59:21.360] [info] Start operation layer0.attn.res
+[2025-04-13 19:59:21.365] [info] tile issued init layer0.attn.res 2174 
+[2025-04-13 19:59:29.240] [info] Finish tile stage_platform:PIM
+tile stat: 
+[2025-04-13 19:59:29.240] [info] Layer layer0.attn.NeuPIMSLogitSoftmax finish at 396531
+[2025-04-13 19:59:29.240] [info] Total compute time 16418
+[2025-04-13 19:59:29.245] [info] Start operation layer0.attn.NeuPIMSAttend
+[2025-04-13 19:59:29.248] [info] pim tile issued init layer0.attn.NeuPIMSAttend 2443 
+[2025-04-13 19:59:31.489] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:59:31.489] [info] Layer layer0.attn.res finish at 399245
+[2025-04-13 19:59:31.489] [info] Total compute time 6980
+[2025-04-13 19:59:31.489] [info] Start operation layer0.ffn.rn
+[2025-04-13 19:59:31.493] [info] tile issued init layer0.ffn.rn 2176 
+[2025-04-13 19:59:37.943] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 19:59:37.943] [info] Layer layer0.ffn.rn finish at 408384
+[2025-04-13 19:59:37.943] [info] Total compute time 9139
+[2025-04-13 19:59:37.943] [info] Start operation layer0.ffn.fc1
+[2025-04-13 19:59:38.071] [info] tile issued init layer0.ffn.fc1 2178 
+[2025-04-13 19:59:40.082] [info] Finish tile stage_platform:PIM
+tile stat: 
+[2025-04-13 19:59:40.083] [info] Layer layer0.attn.NeuPIMSAttend finish at 408668
+[2025-04-13 19:59:40.083] [info] Total compute time 12137
+[2025-04-13 19:59:40.083] [info] Model finish at 408668
+[2025-04-13 20:02:43.690] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:02:43.690] [info] Layer layer0.ffn.fc1 finish at 449410
+[2025-04-13 20:02:43.690] [info] Total compute time 41026
+[2025-04-13 20:02:43.690] [info] Start operation layer0.ffn.swish
+[2025-04-13 20:02:43.691] [info] tile issued init layer0.ffn.swish 2180 
+[2025-04-13 20:02:44.295] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:02:44.295] [info] Layer layer0.ffn.swish finish at 450116
+[2025-04-13 20:02:44.295] [info] Total compute time 706
+[2025-04-13 20:02:44.295] [info] Start operation layer0.ffn.fc2
+[2025-04-13 20:02:44.325] [info] tile issued init layer0.ffn.fc2 2182 
+[2025-04-13 20:04:46.879] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:04:46.879] [info] Layer layer0.ffn.fc2 finish at 488152
+[2025-04-13 20:04:46.879] [info] Total compute time 38036
+[2025-04-13 20:04:46.879] [info] Start operation layer0.ffn.res
+[2025-04-13 20:04:46.885] [info] tile issued init layer0.ffn.res 2184 
+[2025-04-13 20:04:57.362] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:04:57.362] [info] Layer layer0.ffn.res finish at 494399
+[2025-04-13 20:04:57.362] [info] Total compute time 6247
+[2025-04-13 20:04:57.362] [info] Model finish at 494399
+[2025-04-13 20:04:57.362] [info] [1;31m------- Stage E Done -------[0m
+[2025-04-13 20:04:57.369] [info] [1;31m----------Stage F----------[0m
+[2025-04-13 20:04:57.370] [info] New Program for SA  (sub-batch.size: 128)
+[2025-04-13 20:04:57.370] [info] New Program for PIM (sub-batch.size: 128)
+[2025-04-13 20:04:57.370] [info] >>> Initialize SystolicArray Stage Model Program <<<
+[2025-04-13 20:04:57.370] [info] MatMul input idx: 0 / input sz: [128, 512]
+[2025-04-13 20:04:57.370] [info] MatMul output sz: [128, 8192]
+[2025-04-13 20:04:57.370] [info] MatMul inner loop: [8192, 512, 128], outer loop: [1, 1, 1]
+[2025-04-13 20:05:02.212] [info] input0 : [128, 512]  / input1: [512, 8192] / output0 : [128, 8192]
+[2025-04-13 20:05:02.212] [info] outer loop : [1, 1, 1] / inner loop : [8192, 512, 128]
+[2025-04-13 20:05:02.212] [info] _input_dim:[128, 8192], _inputs[1]->get_dims():[128, 8192]
+[2025-04-13 20:05:02.355] [info] (RMSNrom)input dims : [128, 8192] [8192]
+[2025-04-13 20:05:02.355] [info] (RMSNrom)output dim : [128, 8192]
+[2025-04-13 20:05:02.355] [info] MatMul input idx: 0 / input sz: [128, 8192]
+[2025-04-13 20:05:02.355] [info] MatMul output sz: [128, 2048]
+[2025-04-13 20:05:02.355] [info] MatMul inner loop: [2048, 8192, 128], outer loop: [1, 1, 1]
+[2025-04-13 20:05:19.452] [info] input0 : [128, 8192]  / input1: [8192, 2048] / output0 : [128, 2048]
+[2025-04-13 20:05:19.452] [info] outer loop : [1, 1, 1] / inner loop : [2048, 8192, 128]
+[2025-04-13 20:05:19.467] [info] MatMul input idx: 0 / input sz: [128, 2048]
+[2025-04-13 20:05:19.467] [info] MatMul output sz: [128, 8192]
+[2025-04-13 20:05:19.467] [info] MatMul inner loop: [8192, 2048, 128], outer loop: [1, 1, 1]
+[2025-04-13 20:05:36.410] [info] input0 : [128, 2048]  / input1: [2048, 8192] / output0 : [128, 8192]
+[2025-04-13 20:05:36.410] [info] outer loop : [1, 1, 1] / inner loop : [8192, 2048, 128]
+[2025-04-13 20:05:36.410] [info] _input_dim:[128, 8192], _inputs[1]->get_dims():[128, 8192]
+[2025-04-13 20:05:36.494] [info] [1;33mSA : Projection + FFN1 + FFN2[0m
+[2025-04-13 20:05:36.494] [info] [1;33mPIM: skip[0m
+[2025-04-13 20:05:36.494] [info] Start operation layer0.attn.proj
+[2025-04-13 20:05:36.501] [info] Model finish at 494400
+[2025-04-13 20:05:36.501] [info] tile issued init layer0.attn.proj 2574 
+[2025-04-13 20:05:58.944] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:05:58.944] [info] Layer layer0.attn.proj finish at 504026
+[2025-04-13 20:05:58.944] [info] Total compute time 9626
+[2025-04-13 20:05:58.944] [info] Start operation layer0.attn.res
+[2025-04-13 20:05:58.952] [info] tile issued init layer0.attn.res 2576 
+[2025-04-13 20:06:09.511] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:06:09.511] [info] Layer layer0.attn.res finish at 510284
+[2025-04-13 20:06:09.511] [info] Total compute time 6258
+[2025-04-13 20:06:09.511] [info] Start operation layer0.ffn.rn
+[2025-04-13 20:06:09.514] [info] tile issued init layer0.ffn.rn 2578 
+[2025-04-13 20:06:14.044] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:06:14.044] [info] Layer layer0.ffn.rn finish at 513461
+[2025-04-13 20:06:14.044] [info] Total compute time 3177
+[2025-04-13 20:06:14.044] [info] Start operation layer0.ffn.fc1
+[2025-04-13 20:06:14.180] [info] tile issued init layer0.ffn.fc1 2580 
+[2025-04-13 20:08:33.460] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:08:33.460] [info] Layer layer0.ffn.fc1 finish at 554739
+[2025-04-13 20:08:33.460] [info] Total compute time 41278
+[2025-04-13 20:08:33.460] [info] Start operation layer0.ffn.swish
+[2025-04-13 20:08:33.461] [info] tile issued init layer0.ffn.swish 2582 
+[2025-04-13 20:08:33.980] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:08:33.980] [info] Layer layer0.ffn.swish finish at 555334
+[2025-04-13 20:08:33.980] [info] Total compute time 595
+[2025-04-13 20:08:33.980] [info] Start operation layer0.ffn.fc2
+[2025-04-13 20:08:34.009] [info] tile issued init layer0.ffn.fc2 2584 
+[2025-04-13 20:11:00.932] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:11:00.932] [info] Layer layer0.ffn.fc2 finish at 592331
+[2025-04-13 20:11:00.932] [info] Total compute time 36997
+[2025-04-13 20:11:00.932] [info] Start operation layer0.ffn.res
+[2025-04-13 20:11:00.937] [info] tile issued init layer0.ffn.res 2586 
+[2025-04-13 20:11:10.952] [info] Finish tile stage_platform:SA
+tile stat: 
+[2025-04-13 20:11:10.953] [info] Layer layer0.ffn.res finish at 598050
+[2025-04-13 20:11:10.953] [info] Total compute time 5719
+[2025-04-13 20:11:10.953] [info] Model finish at 598050
+[2025-04-13 20:11:10.953] [info] [1;31m------- Stage F Done -------[0m
+[2025-04-13 20:11:10.964] [info] Simulation Finished
+[2025-04-13 20:11:10.964] [info] NeuPIMSCore [0] : MatMul cycle 319859 RMSNorm cycle 5841 Softmax cycle 11281 Add cycle 1800  Swish cycle 512
+[2025-04-13 20:11:10.964] [info] NeuPIMSCore [0] : MatMul stall cycle 182905 RMSNorm stall cycle 32552 Softmax stall cycle 0 Add stall cycle 47099 Swish stall cycle 1807
+[2025-04-13 20:11:10.964] [info] NeuPIMSCore [0] : Load stall cycle 264363 Store stall cycle 7629 Total memory stall 271992 Idle cycle 3212
+[2025-04-13 20:11:10.964] [info] NeuPIMSCore [0] : Total cycle: 598044
+[2025-04-13 20:11:10.964] [info] NeuPIMSCore [0] : Systolic Inst Issue Count : 12288
+[2025-04-13 20:11:10.964] [info] NeuPIMSCore [0] : Systolic PRELOAD Issue Count : 592
+[2025-04-13 20:11:10.964] [info] DRAM CH[0]: AVG BW Util 83.06%
+[2025-04-13 20:11:10.964] [info] DRAM CH[1]: AVG BW Util 83.31%
+[2025-04-13 20:11:10.964] [info] DRAM CH[2]: AVG BW Util 82.79%
+[2025-04-13 20:11:10.964] [info] DRAM CH[3]: AVG BW Util 82.78%
+[2025-04-13 20:11:10.964] [info] DRAM CH[4]: AVG BW Util 83.12%
+[2025-04-13 20:11:10.964] [info] DRAM CH[5]: AVG BW Util 83.14%
+[2025-04-13 20:11:10.964] [info] DRAM CH[6]: AVG BW Util 82.83%
+[2025-04-13 20:11:10.964] [info] DRAM CH[7]: AVG BW Util 82.87%
+[2025-04-13 20:11:10.964] [info] DRAM CH[8]: AVG BW Util 83.14%
+[2025-04-13 20:11:10.964] [info] DRAM CH[9]: AVG BW Util 82.98%
+[2025-04-13 20:11:10.964] [info] DRAM CH[10]: AVG BW Util 82.82%
+[2025-04-13 20:11:10.964] [info] DRAM CH[11]: AVG BW Util 83.62%
+[2025-04-13 20:11:10.964] [info] DRAM CH[12]: AVG BW Util 82.95%
+[2025-04-13 20:11:10.964] [info] DRAM CH[13]: AVG BW Util 82.73%
+[2025-04-13 20:11:10.964] [info] DRAM CH[14]: AVG BW Util 82.84%
+[2025-04-13 20:11:10.964] [info] DRAM CH[15]: AVG BW Util 83.29%
+[2025-04-13 20:11:10.964] [info] DRAM CH[16]: AVG BW Util 82.82%
+[2025-04-13 20:11:10.964] [info] DRAM CH[17]: AVG BW Util 82.83%
+[2025-04-13 20:11:10.964] [info] DRAM CH[18]: AVG BW Util 82.89%
+[2025-04-13 20:11:10.964] [info] DRAM CH[19]: AVG BW Util 83.06%
+[2025-04-13 20:11:10.964] [info] DRAM CH[20]: AVG BW Util 82.84%
+[2025-04-13 20:11:10.964] [info] DRAM CH[21]: AVG BW Util 82.86%
+[2025-04-13 20:11:10.964] [info] DRAM CH[22]: AVG BW Util 82.79%
+[2025-04-13 20:11:10.964] [info] DRAM CH[23]: AVG BW Util 83.43%
+[2025-04-13 20:11:10.964] [info] DRAM CH[24]: AVG BW Util 83.32%
+[2025-04-13 20:11:10.964] [info] DRAM CH[25]: AVG BW Util 83.21%
+[2025-04-13 20:11:10.964] [info] DRAM CH[26]: AVG BW Util 82.80%
+[2025-04-13 20:11:10.964] [info] DRAM CH[27]: AVG BW Util 83.17%
+[2025-04-13 20:11:10.964] [info] DRAM CH[28]: AVG BW Util 83.08%
+[2025-04-13 20:11:10.964] [info] DRAM CH[29]: AVG BW Util 82.91%
+[2025-04-13 20:11:10.964] [info] DRAM CH[30]: AVG BW Util 82.78%
+[2025-04-13 20:11:10.964] [info] DRAM CH[31]: AVG BW Util 82.82%
+[2025-04-13 20:11:10.964] [info] DRAM: AVG BW Util 83.00%
+[2025-04-13 20:11:10.964] [info] DRAM total cycles: 598053
+[2025-04-13 20:11:10.964] [info] DRAM total processed memory requests: 8052428
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59407e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90168e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 771840[0m
+[1;34mgact_energy 1.03202e+07[0m
+[1;34mcomp_energy 3.24687e+07[0m
+[1;34mreadres_energy 823296[0m
+[1;34mbackground_energy 1.37211e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.57982e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90029e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 746112[0m
+[1;34mgact_energy 7.57786e+06[0m
+[1;34mcomp_energy 1.89358e+07[0m
+[1;34mreadres_energy 527424[0m
+[1;34mbackground_energy 1.35965e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59233e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90125e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 746112[0m
+[1;34mgact_energy 8.2535e+06[0m
+[1;34mcomp_energy 2.28465e+07[0m
+[1;34mreadres_energy 611040[0m
+[1;34mbackground_energy 1.36306e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58844e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90104e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 694656[0m
+[1;34mgact_energy 7.77658e+06[0m
+[1;34mcomp_energy 2.25892e+07[0m
+[1;34mreadres_energy 591744[0m
+[1;34mbackground_energy 1.35991e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58761e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90093e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 771840[0m
+[1;34mgact_energy 7.53811e+06[0m
+[1;34mcomp_energy 1.88329e+07[0m
+[1;34mreadres_energy 527424[0m
+[1;34mbackground_energy 1.35877e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59465e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90168e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 643200[0m
+[1;34mgact_energy 7.78982e+06[0m
+[1;34mcomp_energy 2.26406e+07[0m
+[1;34mreadres_energy 591744[0m
+[1;34mbackground_energy 1.3625e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59183e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90125e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 797568[0m
+[1;34mgact_energy 9.33984e+06[0m
+[1;34mcomp_energy 2.64998e+07[0m
+[1;34mreadres_energy 701088[0m
+[1;34mbackground_energy 1.36734e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59547e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90061e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 617472[0m
+[1;34mgact_energy 8.79667e+06[0m
+[1;34mcomp_energy 2.84552e+07[0m
+[1;34mreadres_energy 713952[0m
+[1;34mbackground_energy 1.36636e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58959e+07[0m
+[1;34mread_energy 1.86326e+08[0m
+[1;34mwrite_energy 1.9004e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 668928[0m
+[1;34mgact_energy 9.59155e+06[0m
+[1;34mcomp_energy 3.07192e+07[0m
+[1;34mreadres_energy 771840[0m
+[1;34mbackground_energy 1.36746e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58595e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90051e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 617472[0m
+[1;34mgact_energy 8.22701e+06[0m
+[1;34mcomp_energy 2.5162e+07[0m
+[1;34mreadres_energy 643200[0m
+[1;34mbackground_energy 1.36338e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59059e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.89997e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 643200[0m
+[1;34mgact_energy 8.5847e+06[0m
+[1;34mcomp_energy 2.71688e+07[0m
+[1;34mreadres_energy 688224[0m
+[1;34mbackground_energy 1.36426e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59233e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.89965e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 643200[0m
+[1;34mgact_energy 8.46547e+06[0m
+[1;34mcomp_energy 2.66542e+07[0m
+[1;34mreadres_energy 675360[0m
+[1;34mbackground_energy 1.36404e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.5944e+07[0m
+[1;34mread_energy 1.86323e+08[0m
+[1;34mwrite_energy 1.90125e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 746112[0m
+[1;34mgact_energy 8.99539e+06[0m
+[1;34mcomp_energy 2.72202e+07[0m
+[1;34mreadres_energy 701088[0m
+[1;34mbackground_energy 1.36592e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58852e+07[0m
+[1;34mread_energy 1.86323e+08[0m
+[1;34mwrite_energy 1.90008e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 771840[0m
+[1;34mgact_energy 7.19366e+06[0m
+[1;34mcomp_energy 1.66717e+07[0m
+[1;34mreadres_energy 482400[0m
+[1;34mbackground_energy 1.35993e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59042e+07[0m
+[1;34mread_energy 1.86323e+08[0m
+[1;34mwrite_energy 1.90179e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 720384[0m
+[1;34mgact_energy 9.26035e+06[0m
+[1;34mcomp_energy 2.88154e+07[0m
+[1;34mreadres_energy 733248[0m
+[1;34mbackground_energy 1.36704e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59191e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90093e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 746112[0m
+[1;34mgact_energy 8.09453e+06[0m
+[1;34mcomp_energy 2.17659e+07[0m
+[1;34mreadres_energy 591744[0m
+[1;34mbackground_energy 1.3615e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59026e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90147e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 643200[0m
+[1;34mgact_energy 8.51846e+06[0m
+[1;34mcomp_energy 2.69115e+07[0m
+[1;34mreadres_energy 681792[0m
+[1;34mbackground_energy 1.36403e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59108e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.89944e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 771840[0m
+[1;34mgact_energy 9.67104e+06[0m
+[1;34mcomp_energy 2.85581e+07[0m
+[1;34mreadres_energy 739680[0m
+[1;34mbackground_energy 1.37087e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59208e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90072e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 720384[0m
+[1;34mgact_energy 8.39923e+06[0m
+[1;34mcomp_energy 2.38756e+07[0m
+[1;34mreadres_energy 630336[0m
+[1;34mbackground_energy 1.36284e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59059e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.89997e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 746112[0m
+[1;34mgact_energy 7.84282e+06[0m
+[1;34mcomp_energy 2.03766e+07[0m
+[1;34mreadres_energy 559584[0m
+[1;34mbackground_energy 1.3616e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58976e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90051e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 771840[0m
+[1;34mgact_energy 7.47187e+06[0m
+[1;34mcomp_energy 1.83698e+07[0m
+[1;34mreadres_energy 514560[0m
+[1;34mbackground_energy 1.35985e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58901e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90115e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 720384[0m
+[1;34mgact_energy 8.99539e+06[0m
+[1;34mcomp_energy 2.73231e+07[0m
+[1;34mreadres_energy 701088[0m
+[1;34mbackground_energy 1.36705e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58579e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90115e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 746112[0m
+[1;34mgact_energy 8.21376e+06[0m
+[1;34mcomp_energy 2.25892e+07[0m
+[1;34mreadres_energy 604608[0m
+[1;34mbackground_energy 1.36313e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59489e+07[0m
+[1;34mread_energy 1.86328e+08[0m
+[1;34mwrite_energy 1.90083e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 566016[0m
+[1;34mgact_energy 1.00685e+07[0m
+[1;34mcomp_energy 3.59677e+07[0m
+[1;34mreadres_energy 868320[0m
+[1;34mbackground_energy 1.36838e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58239e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90179e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 746112[0m
+[1;34mgact_energy 7.60435e+06[0m
+[1;34mcomp_energy 1.90902e+07[0m
+[1;34mreadres_energy 533856[0m
+[1;34mbackground_energy 1.36097e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58637e+07[0m
+[1;34mread_energy 1.86323e+08[0m
+[1;34mwrite_energy 1.90189e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 771840[0m
+[1;34mgact_energy 7.81632e+06[0m
+[1;34mcomp_energy 2.03251e+07[0m
+[1;34mreadres_energy 559584[0m
+[1;34mbackground_energy 1.36068e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58943e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90008e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 668928[0m
+[1;34mgact_energy 8.16077e+06[0m
+[1;34mcomp_energy 2.49047e+07[0m
+[1;34mreadres_energy 636768[0m
+[1;34mbackground_energy 1.36495e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58844e+07[0m
+[1;34mread_energy 1.86325e+08[0m
+[1;34mwrite_energy 1.90061e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 643200[0m
+[1;34mgact_energy 8.62445e+06[0m
+[1;34mcomp_energy 2.75804e+07[0m
+[1;34mreadres_energy 694656[0m
+[1;34mbackground_energy 1.36647e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58545e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90136e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 746112[0m
+[1;34mgact_energy 8.51846e+06[0m
+[1;34mcomp_energy 2.44416e+07[0m
+[1;34mreadres_energy 643200[0m
+[1;34mbackground_energy 1.36435e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58852e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90136e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 643200[0m
+[1;34mgact_energy 8.78342e+06[0m
+[1;34mcomp_energy 2.84037e+07[0m
+[1;34mreadres_energy 713952[0m
+[1;34mbackground_energy 1.36686e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.58545e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90125e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 720384[0m
+[1;34mgact_energy 8.16077e+06[0m
+[1;34mcomp_energy 2.23834e+07[0m
+[1;34mreadres_energy 598176[0m
+[1;34mbackground_energy 1.36271e+08[0m
+[1;34mTotal energy breakdown[0m
+[1;34mact_energy 1.59075e+07[0m
+[1;34mread_energy 1.86324e+08[0m
+[1;34mwrite_energy 1.90136e+07[0m
+[1;34mref_energy 1.8617e+07[0m
+[1;34mrefb_energy -0[0m
+[1;34mgwrite_energy 617472[0m
+[1;34mgact_energy 8.66419e+06[0m
+[1;34mcomp_energy 2.79406e+07[0m
+[1;34mreadres_energy 701088[0m
+[1;34mbackground_energy 1.36552e+08[0m
+[2025-04-13 20:11:12.224] [info] Stage A : 35917 cycles
+[2025-04-13 20:11:12.224] [info] Stage B : 45878 cycles
+[2025-04-13 20:11:12.224] [info] Stage C : 145884 cycles
+[2025-04-13 20:11:12.224] [info] Stage D : 152434 cycles
+[2025-04-13 20:11:12.224] [info] Stage E : 114287 cycles
+[2025-04-13 20:11:12.224] [info] Stage F : 103651 cycles
+[2025-04-13 20:11:12.224] [info] total pre req count 255804268 / memory request count 8014670
+[2025-04-13 20:11:12.224] [info] [1;33mmode: fused NPU+PIM[0m
+memory config: ./configs/memory_configs/neupims.json
+client config: ./data/share-gpt2-lmbs256-ms70B-tp16-pp4-clb-0.csv
+model config: ./configs/model_configs/llama2-70B.json
+system config: ./configs/system_configs/sub-batch-on.json
