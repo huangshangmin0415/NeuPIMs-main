@@ -1,0 +1,3 @@
+OpName	StartCycle	EndCycle	TotalCycle	ComputeCycles	MemoryStalls	WeightLoadCycles	SystolicMemoryStalls	MemoryReads	MemoryWrites	ReadBandwidth	WriteBandwidth	TotalMemoryBandwidth	NumCalculation	NpuUtilization	
+layer0.attn.rn	0	767	767	320	0	0	0	536640	528384	699661016949	688897001303	1388558018252	0	0.000000	
+layer0.attn.QKVgen	767	21262	20495	12189	0	0	0	13134144	16448	640846255184	802537204	641648792388	402653184	2.016244	

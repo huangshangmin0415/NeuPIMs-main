@@ -1,0 +1,3 @@
+OpName	StartCycle	EndCycle	TotalCycle	ComputeCycles	MemoryStalls	WeightLoadCycles	SystolicMemoryStalls	MemoryReads	MemoryWrites	ReadBandwidth	WriteBandwidth	TotalMemoryBandwidth	NumCalculation	NpuUtilization	
+layer0.attn.NeuPIMSLogitSoftmax	17738	30686	12948	11679	0	0	0	0	395136	0	30517145505	30517145505	0	0.000000	
+layer0.attn.NeuPIMSAttend	30686	54368	23682	0	0	0	0	0	0	0	0	0	0	-nan	

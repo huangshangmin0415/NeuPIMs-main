@@ -11,7 +11,5 @@ dramsim3.json
 dramsim3.txt
 dramsim3epoch.json
 
-/experiment_logs
-
 log.sh
 perf.*
