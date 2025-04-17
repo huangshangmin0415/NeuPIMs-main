@@ -1,0 +1,11 @@
+{
+ "model_name": "LLAMA2-13B",
+ "model_params_b": 13,
+ "model_vocab_size": 32000,
+ "model_n_layer": 40,
+ "model_n_head": 40,
+ "gqp": 1,
+ "model_n_embd": 4096,
+ "n_tp": 8,
+ "n_pp": 2
+}

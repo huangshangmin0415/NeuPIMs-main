@@ -3,9 +3,9 @@ cd ../build; make; cd ..;
 # config file
 config=./configs/systolic_ws_128x128_dev.json
 mem_config=./configs/memory_configs/neupims.json
-model_config=./configs/model_configs/llama2-7B.json
+model_config=./configs/model_configs/llama2-7B-bs384-share-gpt-prev.json
 sys_config=./configs/system_configs/sub-batch-on.json
-cli_config=./data/share-gpt-prev-lmbs384-ms7B-tp4-pp2-clb-0.csv
+cli_config=./data/share-gpt-prev-lmbs384-ms7B-tp4-pp2-clb-1.csv
 
 # log file
 LOG_LEVEL=info
