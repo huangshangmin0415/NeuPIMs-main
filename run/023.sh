@@ -5,7 +5,7 @@ config=./configs/systolic_ws_128x128_dev.json
 mem_config=./configs/memory_configs/neupims.json
 model_config=./configs/model_configs/gpt3-175B-bs256-alpaca.json
 sys_config=./configs/system_configs/sub-batch-on.json
-cli_config=./data/alpaca-bs256-ms175B-tp32-pp4-clb-1.csv
+cli_config=./data/alpaca-bs256-ms175B-tp32-pp4-clb-3.csv
 
 # log file
 LOG_LEVEL=info
