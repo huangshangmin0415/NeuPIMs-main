@@ -5,7 +5,7 @@ config=./configs/systolic_ws_128x128_dev.json
 mem_config=./configs/memory_configs/neupims.json
 model_config=./configs/model_configs/llama2-70B-bs64-alpaca.json
 sys_config=./configs/system_configs/sub-batch-on.json
-cli_config=./data/alpaca-lmbs64-ms70B-tp16-pp4-clb-3.csv
+cli_config=./data/alpaca-lmbs64-ms70B-tp16-pp4-clb-4.csv
 
 # log file
 LOG_LEVEL=info

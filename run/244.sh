@@ -5,7 +5,7 @@ config=./configs/systolic_ws_128x128_dev.json
 mem_config=./configs/memory_configs/neupims.json
 model_config=./configs/model_configs/llama2-7B-bs512-share-gpt-prev.json
 sys_config=./configs/system_configs/sub-batch-on.json
-cli_config=./data/share-gpt-prev-lmbs512-ms7B-tp4-pp2-clb-3.csv
+cli_config=./data/share-gpt-prev-lmbs512-ms7B-tp4-pp2-clb-4.csv
 
 # log file
 LOG_LEVEL=info
